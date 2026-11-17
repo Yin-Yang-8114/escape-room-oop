@@ -42,3 +42,7 @@ class Room():
             max_players=data["max_players"],
             price_per_player=data["price_per_player"],
             is_active=data["is_active"])
+
+
+    \a
+    d
