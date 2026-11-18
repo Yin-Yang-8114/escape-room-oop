@@ -31,6 +31,9 @@ class Room():
             "price_per_player": self.price_per_player,
             "is_active": self.is_active}
     
+    # def to_dict(self): # TODO chack if that eant they want? 
+    #     return  self.__dict__  
+
     @classmethod
     def from_dict(cls, data):
         return cls(
@@ -43,6 +46,3 @@ class Room():
             price_per_player=data["price_per_player"],
             is_active=data["is_active"])
 
-
-    \a
-    d

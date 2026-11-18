@@ -13,3 +13,14 @@ class  BookingManager:
     def create_booking(customer_name, room_id, booking_date, start_time, players):
         pass
 
+    def get_room_by_id(self,room_id):
+        for room in self.rooms:
+            if room.room_id == room_id:
+                return room
+        return None
+
+    def get_booking(self,booking_id):
+        for booking in self.bookings:
+            if booking.booking_id == booking_id:
+                return booking
+        return None
